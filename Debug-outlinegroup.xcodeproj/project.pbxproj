@@ -13,6 +13,8 @@
 		7128AF6C2968F61F000C10E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7128AF6B2968F61F000C10E5 /* Preview Assets.xcassets */; };
 		7128AF6E2968F61F000C10E5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128AF6D2968F61F000C10E5 /* Persistence.swift */; };
 		7128AF712968F61F000C10E5 /* Debug_outlinegroup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7128AF6F2968F61F000C10E5 /* Debug_outlinegroup.xcdatamodeld */; };
+		7128AF792968FC93000C10E5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128AF782968FC92000C10E5 /* Model.swift */; };
+		7128AF7B2968FD06000C10E5 /* FolderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7128AF7A2968FD06000C10E5 /* FolderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7128AF6D2968F61F000C10E5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7128AF702968F61F000C10E5 /* Debug_outlinegroup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Debug_outlinegroup.xcdatamodel; sourceTree = "<group>"; };
 		7128AF722968F61F000C10E5 /* Debug_outlinegroup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Debug_outlinegroup.entitlements; sourceTree = "<group>"; };
+		7128AF782968FC92000C10E5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7128AF7A2968FD06000C10E5 /* FolderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7128AF722968F61F000C10E5 /* Debug_outlinegroup.entitlements */,
 				7128AF6F2968F61F000C10E5 /* Debug_outlinegroup.xcdatamodeld */,
 				7128AF6A2968F61F000C10E5 /* Preview Content */,
+				7128AF782968FC92000C10E5 /* Model.swift */,
+				7128AF7A2968FD06000C10E5 /* FolderModel.swift */,
 			);
 			path = "Debug-outlinegroup";
 			sourceTree = "<group>";
@@ -145,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7128AF792968FC93000C10E5 /* Model.swift in Sources */,
+				7128AF7B2968FD06000C10E5 /* FolderModel.swift in Sources */,
 				7128AF6E2968F61F000C10E5 /* Persistence.swift in Sources */,
 				7128AF672968F61E000C10E5 /* ContentView.swift in Sources */,
 				7128AF712968F61F000C10E5 /* Debug_outlinegroup.xcdatamodeld in Sources */,
